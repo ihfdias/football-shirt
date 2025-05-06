@@ -49,3 +49,4 @@ prevButton.addEventListener('click', function() {
 nextButton.addEventListener('click', function() {
     update(+1)
 })
+
