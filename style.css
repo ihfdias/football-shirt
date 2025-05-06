@@ -333,3 +333,51 @@ header nav ul li:hover::after {
     top: 20%;
     left: 70%;
 }
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        width: 95vw;
+        gap: 20px;
+    }
+
+    .product-img, .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .product-img img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .product-name {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    .arrow-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .numbers {
+        font-size: 2rem;
+    }
+
+    .dot {
+        width: 20px;
+    }
+}
